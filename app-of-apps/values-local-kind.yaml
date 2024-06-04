@@ -36,7 +36,7 @@ helmCharts:
   # Microservice helm charts for the dev environment
 
   todolist-frontend-dev:
-    enabled: true
+    enabled: false
     values: microservices-kind/dev/todolist/frontend/values.yaml
 
   show-env-dev:
@@ -46,12 +46,12 @@ helmCharts:
 # Microservice helm charts for the tst environment
 
   todolist-frontend-tst:
-    enabled: true
+    enabled: false
     values: microservices-kind/tst/todolist/frontend/values.yaml
 
 
 # Microservice helm charts for the prd environment
 
   todolist-frontend-prd:
-    enabled: true
+    enabled: false
     values: microservices-kind/prd/todolist/frontend/values.yaml
